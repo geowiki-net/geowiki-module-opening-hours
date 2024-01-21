@@ -1,10 +1,12 @@
+const Twig = require('twig')
+
 module.exports = {
   id: 'opening-hours'
 }
 
 const OpeningHours = require('opening_hours')
 
-OverpassLayer.twig.extendFunction('openingHoursState', function (openingHours) {
+Twig.extendFunction('openingHoursState', function (openingHours) {
   try {
     var oh = new OpeningHours(openingHours)
   } catch (err) {

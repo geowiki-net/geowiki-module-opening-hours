@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/geowiki-net/geowiki-module-opening-hours#readme",
   "dependencies": {
-    "opening_hours": "^3.8.0"
+    "opening_hours": "^3.8.0",
+    "twig": "^1.17.1"
   }
 }

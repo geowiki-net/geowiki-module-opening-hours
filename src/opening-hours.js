@@ -1,3 +1,7 @@
+module.exports = {
+  id: 'opening-hours'
+}
+
 const OpeningHours = require('opening_hours')
 
 OverpassLayer.twig.extendFunction('openingHoursState', function (openingHours) {
@@ -10,4 +14,3 @@ OverpassLayer.twig.extendFunction('openingHoursState', function (openingHours) {
 
   return oh.getStateString(new Date(), true)
 })
-

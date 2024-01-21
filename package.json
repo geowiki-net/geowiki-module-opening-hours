@@ -1,0 +1,20 @@
+{
+  "name": "geowiki-module-opening-hours",
+  "version": "1.0.0",
+  "description": "Adds an Opening Hours parser to Geowiki Stylesheets",
+  "main": "src/opening-hours.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geowiki-net/geowiki-module-opening-hours.git"
+  },
+  "author": "Stephan Bösch-Plepelits <skunk@xover.mud.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geowiki-net/geowiki-module-opening-hours/issues"
+  },
+  "homepage": "https://github.com/geowiki-net/geowiki-module-opening-hours#readme",
+  "dependencies": {
+    "opening_hours": "^3.8.0"
+  }
+}
